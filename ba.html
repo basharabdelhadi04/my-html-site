@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Information Technology - Applied Science Private University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #1a202c; /* Dark blue-gray */
+        }
+        .section-bg {
+            background-color: #f7fafc; /* Light gray */
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="hero-bg text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex flex-col sm:flex-row justify-between items-center">
+            <!-- Title Container -->
+            <a href="#" class="flex items-center">
+                <!-- Logo Image Removed -->
+                <span class="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight">Faculty of <span class="text-blue-400">Information Technology</span></span>
+            </a>
+            <nav class="mt-4 sm:mt-0">
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-blue-300 transition duration-300">About Us</a></li>
+                    <li><a href="#majors" class="hover:text-blue-300 transition duration-300">Majors</a></li>
+                    <li><a href="#contact" class="hover:text-blue-300 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-4 leading-tight">Welcome to the Faculty of Information Technology</h1>
+            <p class="text-xl mb-8 text-gray-300">Shaping the next generation of innovators at Applied Science Private University.</p>
+            <a href="#majors" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 text-lg">Explore Our Programs</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 section-bg">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-700">About Us</h2>
+            <div class="bg-white p-8 rounded-lg shadow-xl max-w-3xl mx-auto">
+                <p class="text-lg mb-4 text-gray-600">The Faculty of Information Technology (FIT) has faculty members at various levels of academic ranking (professors, associate professors, and assistant professors) supported by professional technical staff that are supporting the following five academic departments:</p>
+                <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2 pl-4 text-lg">
+                    <li>Department of Master in Computer Science</li>
+                    <li>Department of Computer Science</li>
+                    <li>Department of Software Engineering</li>
+                    <li>Department of Cybersecurity and Cloud Computing</li>
+                    <li>Department of Data Science and Artificial Intelligence</li>
+                </ul>
+                <h3 class="text-2xl font-semibold mt-8 mb-3 text-gray-700">Our Faculty</h3>
+                <p class="text-lg text-gray-600">Our Faculty are more than just educators; they are pioneers and researchers who are actively shaping the future of their fields. With a wealth of experience from both academia and industry, they provide our students with invaluable insights and mentorship.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Majors Section -->
+    <section id="majors" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-700">Our Majors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+
+                <!-- AI and Data Science Card -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover transition duration-300 flex flex-col">
+                    <h3 class="text-3xl font-semibold mb-4 text-blue-600">Artificial Intelligence and Data Science</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">Unlock the power of data and intelligent systems. This major positions you at the vanguard of technological innovation, preparing you to develop smart solutions that transform industries and solve complex global problems. If you're passionate about machine learning, big data, and creating the future, AI and Data Science is your launchpad to a limitless career.</p>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Advantages:</h4>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-1">
+                        <li>Master in-demand skills for explosive-growth careers.</li>
+                        <li>Drive innovation in healthcare, finance, tech, and beyond.</li>
+                        <li>Develop cutting-edge AI models and data-driven strategies.</li>
+                    </ul>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Career Paths:</h4>
+                    <p class="text-gray-600">AI Engineer, Data Scientist, Machine Learning Engineer, Data Analyst, Business Intelligence Architect, Research Scientist.</p>
+                </div>
+
+                <!-- Cybersecurity Card -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover transition duration-300 flex flex-col">
+                    <h3 class="text-3xl font-semibold mb-4 text-blue-600">Cybersecurity</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">Become an essential guardian of the digital world. In an era where cyber threats are ever-present, this major equips you with the expertise to protect critical information and infrastructure. If you thrive on challenges, possess a keen analytical mind, and want a career with profound impact and high demand, Cybersecurity offers a direct path to becoming a vital defender.</p>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Advantages:</h4>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-1">
+                        <li>Secure a future in a field with critical global importance.</li>
+                        <li>Gain expertise in ethical hacking, forensics, and threat mitigation.</li>
+                        <li>Enjoy exceptional job security and diverse career opportunities.</li>
+                    </ul>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Career Paths:</h4>
+                    <p class="text-gray-600">Cybersecurity Analyst, Penetration Tester, Security Architect, Incident Responder, Digital Forensics Specialist, Chief Information Security Officer (CISO).</p>
+                </div>
+
+                <!-- Computer Science Card -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover transition duration-300 flex flex-col">
+                    <h3 class="text-3xl font-semibold mb-4 text-blue-600">Computer Science</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">Build the foundations of tomorrow's technology. Computer Science is the bedrock of the digital age, offering unparalleled versatility and the power to innovate across any domain. If you are a creative problem-solver with a passion for understanding how technology works from the ground up, this major will empower you to design, develop, and revolutionize the digital landscape.</p>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Advantages:</h4>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-1">
+                        <li>Acquire a universally applicable and powerful skillset.</li>
+                        <li>Explore diverse fields from software development to research.</li>
+                        <li>Be at the forefront of creating new technologies and applications.</li>
+                    </ul>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Career Paths:</h4>
+                    <p class="text-gray-600">Software Developer, Systems Analyst, Database Administrator, Full-Stack Developer, Cloud Engineer, Game Developer, UI/UX Designer.</p>
+                </div>
+
+                <!-- Software Engineering Card -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover transition duration-300 flex flex-col">
+                    <h3 class="text-3xl font-semibold mb-4 text-blue-600">Software Engineering</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">Engineer the future by architecting robust and impactful software solutions. This major takes you beyond coding, teaching you the principles of systematic design, development, and maintenance of complex software systems. If you aspire to lead projects, build scalable applications, and apply engineering discipline to software creation, this is your path to shaping the technology that runs our world.</p>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Advantages:</h4>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-1">
+                        <li>Lead the development of large-scale, reliable software systems.</li>
+                        <li>Master industry-standard methodologies and project management.</li>
+                        <li>Secure high-demand roles in innovative tech companies.</li>
+                    </ul>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700">Career Paths:</h4>
+                    <p class="text-gray-600">Software Engineer, DevOps Engineer, Quality Assurance Engineer, Solutions Architect, Technical Lead, Project Manager, Mobile App Developer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Placeholder -->
+    <section id="contact" class="py-16 section-bg">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gray-700">Get in Touch</h2>
+            <p class="text-lg text-gray-600 mb-6">Interested in learning more about our programs or have questions? We'd love to hear from you!</p>
+            <p class="text-lg text-gray-600 mb-2"><strong>Email:</strong> info@asu.edu.jo</p>
+            <p class="text-lg text-gray-600"><strong>Phone:</strong> 00962-65609999</p>
+            <a href="mailto:info@asu.edu.jo" class="mt-6 inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 text-lg">Email Us</a>
+            <!-- A more detailed contact form could be added here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="hero-bg text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="currentYear"></span> Faculty of Information Technology, Applied Science Private University. All rights reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">Designed with passion for innovation.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
